@@ -1,0 +1,79 @@
+.tutorial {
+  width: 600px;
+  text-align: center;
+  margin: auto;
+}
+.title{
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: .2rem;
+  font-weight: 100;
+}
+
+figure.image {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+figure .image img {
+  width: 128px;
+}
+
+.notification {
+  margin-top: 20px !important;
+}
+
+.title .icon {
+  margin-left: 15px;
+}
+
+.hero {
+  margin-bottom: 20px;
+}
+
+.forms {
+  display: flex;
+  justify-content: space-around;
+}
+
+.results {
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+.dropdown-item img {
+  height: 50px;
+  margin-right: 10px;
+}
+.footer{
+  text-align: center;
+  font-size: 2rem;
+
+}
+.heartbeat{
+  color: red;
+  font-size: inherit;
+  animation: heart 1s infinite;
+}
+
+@keyframes heart {
+  0% {
+    transform: scale( 1 );    
+  }
+  20% {
+    transform: scale( 1.25 ) 
+      translateX(5%) 
+      translateY(5%);
+  } 
+  40% {
+    transform: scale( 1.5 ) 
+      translateX(9%) 
+      translateY(10%);
+  }
+}
